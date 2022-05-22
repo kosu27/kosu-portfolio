@@ -172,6 +172,7 @@ const mantineColors = {
 };
 
 module.exports = {
+  mode: "jit",
   content: ["./pages/**/*.{ts,tsx}", "./src/**/*.{ts,tsx}"],
   theme: {
     /* Mantineと一致させる: https://mantine.dev/theming/responsive */
