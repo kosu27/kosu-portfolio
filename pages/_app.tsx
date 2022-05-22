@@ -1,5 +1,6 @@
 import "../src/style/index.css";
 
+import { MantineProvider } from "@mantine/core";
 import type { CustomAppPage } from "next/app";
 import Head from "next/head";
 
@@ -15,7 +16,9 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
       <Head>
         <title>nexst</title>
       </Head>
-      {getLayout(<Component {...pageProps} />)}
+      <MantineProvider withGlobalStyles withNormalizeCSS>
+        {getLayout(<Component {...pageProps} />)}
+      </MantineProvider>
     </>
   );
 };
