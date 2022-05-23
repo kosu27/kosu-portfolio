@@ -14,7 +14,7 @@ const App: CustomAppPage = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>nexst</title>
+        <title>ToiletMap</title>
       </Head>
       <MantineProvider withGlobalStyles withNormalizeCSS>
         {getLayout(<Component {...pageProps} />)}
