@@ -7,9 +7,6 @@ const ITEMS = [
   { href: "/support/privacy-policy", label: "プライバシーポリシー" },
 ];
 
-/**
- * @package
- */
 export const Footer: FC = () => {
   return (
     <footer className="py-10 px-6 mx-auto min-w-full text-center text-gray-500">
@@ -28,7 +25,7 @@ export const Footer: FC = () => {
       </ul>
 
       <small className="block mt-4" lang="en">
-        &copy; 20xx example
+        &copy; 2022 kosu All Rights Reserved.
       </small>
     </footer>
   );
